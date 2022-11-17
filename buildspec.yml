@@ -8,7 +8,7 @@ phases:
   install:
     commands:
       - echo "#######################################################################"
-      - echo "# Entered the install phase at `date`...                              #"
+      - echo "# Entered the install phase at `date`...                              \#"
       - echo "#######################################################################"
       - yum -y update
       - curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
